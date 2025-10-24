@@ -1,0 +1,27 @@
+{
+  "name": "comet-browser-landing",
+  "version": "1.0.0",
+  "description": "Landing page for Comet Browser referral program",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "build": "echo 'Build complete - static files ready for deployment'",
+    "dev": "serve -l 3000 .",
+    "preview": "serve ."
+  },
+  "keywords": [
+    "comet",
+    "browser",
+    "ai",
+    "landing-page",
+    "referral"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
